@@ -97,7 +97,7 @@
                         arguments[0] = t = e.$handleEvent(t), e.goVersion.apply(void 0, arguments)
                     }
                 }
-            }, [i("v-uni-view", {staticClass: "tip-text"}, [e._v("版本")]), i("u-icon", {
+            }, [i("v-uni-view", {staticClass: "tip-text"}, [e._v("获得识别码")]), i("u-icon", {
                 attrs: {
                     name: "arrow-right",
                     label: e.v,
@@ -111,7 +111,7 @@
                     "z-index": "9999"
                 }
             }, [i("u-modal", {
-                attrs: {show: e.pswShow, confirmText: "关闭", title: "内容过于** 请输入识别码"},
+                attrs: {show: e.pswShow, confirmText: "关闭", title: "内容过于** 请输入识别码,识别码在右上角设置中获取"},
                 on: {
                     confirm: function (t) {
                         arguments[0] = t = e.$handleEvent(t), e.pswShow = !1
@@ -1101,7 +1101,7 @@
             },
             data: function () {
                 return {
-                    v: "v 2.0.5",
+                    v: "",
                     particlestyle: {style: "snow", zindex: 1},
                     title: "Hello",
                     list: [{

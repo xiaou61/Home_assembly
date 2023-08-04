@@ -1,0 +1,71 @@
+.topnav{
+    background: #333;
+    height: 40px;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.topnav-menu{
+    /*文字居中*/
+    line-height: 40px;
+}
+.topnav-menu a{
+    padding: 0 7px;
+    border-right: 1px solid #424242;
+}
+.topnav-menu li:last-child a{
+    /*最后一个a元素的右边框取消*/
+    border-right: none;
+}
+/*这里是第一个元素因为设置了左边距，所以会导致没有对齐*/
+.topnav-menu li:first-child a{
+    padding-left: 0;
+}
+.topnav-menu a:hover{
+    color: white;
+}
+/*购物车*/
+.topnav-car{
+    background: #424242;
+    width: 120px;
+    height: 40px;
+    margin-left: 13px;
+    position: relative;
+}
+.topnav-link{
+    width: 100%;
+    height: 100%;
+    /*默认行盒子，设置宽高无效*/
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+.topnav-link .iconfont{
+    margin-right: 3px;
+}
+.topnav-detail{
+    background: #ffffff;
+    position: absolute;
+    width: 320px;
+    height: 100px;
+    right: 0;
+    top: 40px;
+    border: 1px solid #cccccc;
+    /*是没有上边框的*/
+    border-top: none;
+    text-align: center;
+    line-height: 100px;
+    display: none;
+    /*弹出菜单设置成2位数*/
+    z-index: 50;
+}
+.topnav-car:hover .topnav-detail{
+    display: block;
+}
+.topnav-car:hover .topnav-link{
+    background: #ffffff;
+
+}
+.topnav-car:hover .topnav-link{
+    background: #fff;
+    color: #ff6700;
+}

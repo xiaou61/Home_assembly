@@ -111,7 +111,11 @@
                     "z-index": "9999"
                 }
             }, [i("u-modal", {
-                attrs: {show: e.pswShow, confirmText: "关闭", title: "内容过于** 请输入识别码,识别码在右上角设置中获取"},
+                attrs: {
+                    show: e.pswShow,
+                    confirmText: "关闭",
+                    title: "内容过于** 请输入识别码,识别码在右上角设置中获取"
+                },
                 on: {
                     confirm: function (t) {
                         arguments[0] = t = e.$handleEvent(t), e.pswShow = !1

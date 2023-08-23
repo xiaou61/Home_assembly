@@ -19,9 +19,10 @@ body {
   margin-bottom: 20px;
 }
 
+
 .card {
   /* 卡片宽高，高度通过比例自动，圆角，卡片阴影 */
-  width: 45vmin;
+  width: 25vmin;
   aspect-ratio: 3/4;
   border-radius: 1vmin;
   box-shadow: rgba(255, 255, 255, 0.2) 0 5vmin 6vmin -8vmin,
@@ -32,6 +33,7 @@ body {
   /* 超出部分隐藏，定位点 */
   overflow: hidden;
   position: relative;
+  margin-top: 20px;
 }
 
 .card img {

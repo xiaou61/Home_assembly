@@ -47,15 +47,8 @@
                     title: "如何获取",
                     versionList: [
                         {
-                            v: "方法1(付费)",
-                            text: "你可以通过赞助5元后添加我的微信17713088356获取,赞助二维码<a href='https://img1.imgtp.com/2023/07/19/VKrFkQAE.jpg'>点击查看</a>"
-                        }, {
-                            v: "方法2(免费)",
-                            text: "进入我的个人博客<a href='https://mydocs.guoyaxue.top/projects/zatan/7/8.html'>点击进入</a>在技术杂谈中寻找关于这个的文章获取"
-                        },
-                        {
-                            v: "方法3(付费不需要添加微信，但需要耐心等待)",
-                            text: "进入我的店铺购买<a href='https://xiaou-1305448902.cos.ap-nanjing.myqcloud.com/img/202308091542681.jpg'>点击进入</a>"
+                            v: "售后方式",
+                            text: "售后联系：youtiao-01"
                         }
                     ]
                 }

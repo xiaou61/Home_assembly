@@ -8,5 +8,5 @@ two.addEventListener('click',()=>{
     location.replace("https://effect.guoyaxue.top/nav/index2.html")
 })
 three.addEventListener('click',()=>{
-    location.replace("https://effect.guoyaxue.top/rose/love3/index.html")
+    location.replace("https://effect.guoyaxue.top/nav/index3.html")
 })

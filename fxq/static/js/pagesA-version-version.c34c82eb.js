@@ -48,18 +48,18 @@
                     versionList: [
                         {
                             v: "注意",
-                            text: "这个只是最基础的演示版本，除了这个之外，还有很多各种样式的情侣游戏，可以联系我的个人微信获取"
+                            text: "这个只是最基础的演示版本，除了这个之外，还有很多各种样式的情侣游戏，可以联系我的个人微信获取,也可以进入博客中进行查看<a href='https://mydocs.guoyaxue.top/projects/zatan/7/8.html'>点击进入</a>"
                         },
                         {
                             v: "方法1(付费)",
                             text: "你可以通过赞助5元后添加我的微信17713088356获取,赞助二维码<a href='https://img1.imgtp.com/2023/07/19/VKrFkQAE.jpg'>点击查看</a>"
                         }, {
-                            v: "方法2(免费)",
+                            v: "方法2(免费 需要是程序员)",
                             text: "进入我的个人博客<a href='https://mydocs.guoyaxue.top/projects/zatan/7/8.html'>点击进入</a>在技术杂谈中寻找关于这个的文章获取"
                         },
                         {
                             v: "方法3(付费不需要添加微信，但需要耐心等待)",
-                            text: "进入我的店铺购买<a href='https://xiaou-1305448902.cos.ap-nanjing.myqcloud.com/img/202308091542681.jpg'>点击进入</a>"
+                            text: "进入我的店铺购买<a href='https://xiaou-1305448902.cos.ap-nanjing.myqcloud.com/img/202308091542681.jpg'>点击进入</a>,新版来袭，如需购买新版可进入下面的链接购买，多种情侣小游戏整合，限时特价<a href='https://xiaou-1305448902.cos.ap-nanjing.myqcloud.com/img/202309160913891.jpg'>点击进入</a>"
                         }
                     ]
                 }

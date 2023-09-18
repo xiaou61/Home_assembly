@@ -1799,21 +1799,30 @@
 						confirmPwd: function(e) {
 							var t = this,
 								i = e.pass;
-							this.$refs.pwd.close(), uni.showLoading({
-								title: "识别中..."
-							});
-							setTimeout((function() {
-								clearTimeout(null), uni.hideLoading();
-								uni.showModal({
-									content: "激活成功！",
-									showCancel: !1,
-									success: function(e) {
-										e.confirm && (t.setLockVip(!
+
+
+							//TODO 密码在这里
+							let arr=['456444',"606060"]
+							if (arr.includes(i)) {
+								setTimeout((function() {
+									clearTimeout(null), uni.hideLoading();
+
+									uni.showModal({
+										content: "激活成功！",
+										showCancel: !1,
+										success: function(e) {
+											e.confirm && (t.setLockVip(!
 												0), t.$refs.pwd
-											.close())
-									}
+												.close())
+										}
+									})
+								}), 1500)
+							}else {
+							    uni.showModal({
+									content:"激活失败，激活码错误"
 								})
-							}), 1500)
+							}
+
 						},
 						copySend: function() {
 							uni.setClipboardData({

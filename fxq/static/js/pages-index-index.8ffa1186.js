@@ -20,7 +20,7 @@
             var e = this, t = e.$createElement, i = e._self._c || t;
             return i("v-uni-view", {staticClass: "body"}, [i("u-navbar", {
                 staticClass: "navbar",
-                attrs: {placeholder: !0, title: "情侣飞行棋 " + e.v, titleStyle: {color: "#fff"}},
+                attrs: {placeholder: !0, title: "情侣飞行棋 (全新版本来临，请看设置里面)" + e.v, titleStyle: {color: "#fff"}},
                 on: {
                     rightClick: function (t) {
                         arguments[0] = t = e.$handleEvent(t), e.rightClick.apply(void 0, arguments)

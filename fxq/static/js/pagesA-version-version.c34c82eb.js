@@ -48,14 +48,14 @@
                     versionList: [
                         {
                             v: "注意",
-                            text: "这个只是最基础的演示版本，除了这个之外，还有很多各种样式的情侣游戏，可以联系我的个人微信获取,也可以进入博客中进行查看<a href='https://mydocs.guoyaxue.top/projects/zatan/7/8.html'>点击进入</a>"
+                            text: "这个只是最基础的演示版本，除了这个之外，还有很多各种样式的情侣游戏，可以联系我的个人微信获取,也可以进入博客中进行查看<a href='https://mydocs-1305448902.cos-website.ap-nanjing.myqcloud.com/2023/09/30/%E5%85%B6%E4%BB%96/%E9%AB%98%E7%BA%A7%E7%89%88%E9%A3%9E%E8%A1%8C%E6%A3%8B/'>点击进入</a>"
                         },
                         {
                             v: "方法1(付费)",
                             text: "你可以通过赞助5元后添加我的微信17713088356获取,赞助二维码<a href='https://img1.imgtp.com/2023/07/19/VKrFkQAE.jpg'>点击查看</a>"
                         }, {
                             v: "方法2(免费 需要是程序员)",
-                            text: "进入我的个人博客<a href='https://mydocs.guoyaxue.top/projects/zatan/7/8.html'>点击进入</a>在技术杂谈中寻找关于这个的文章获取"
+                            text: "进入我的个人博客<a href='https://mydocs-1305448902.cos-website.ap-nanjing.myqcloud.com/2023/09/30/%E5%85%B6%E4%BB%96/%E9%AB%98%E7%BA%A7%E7%89%88%E9%A3%9E%E8%A1%8C%E6%A3%8B/'>点击进入</a>中查看方法"
                         },
                         {
                             v: "方法3(付费不需要添加微信，但需要耐心等待)",
